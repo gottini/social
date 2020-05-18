@@ -1,0 +1,49 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.dialog {
+    width: 188px;
+    height: 50px;
+    margin: 2px;
+    box-shadow: 0 0 3px rgba(134, 134, 134, 0.5);
+    background-color: rgb(255, 255, 255);
+}
+
+.dialog a {
+    display: block;
+    text-decoration-style: double;
+    text-align: center;
+    padding-top: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', Light;
+}
+
+.text {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+ .dialogsItems  {
+     grid-area: 1 / 1 / 2 / 2;
+}
+
+.dialogsItems .active {
+
+    color: pink;
+}
+
+.messages {
+    padding-left: 10px;
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+/* .messages .message {
+
+
+} */
